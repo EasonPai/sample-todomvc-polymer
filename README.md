@@ -1,3 +1,5 @@
+[![Build Status](https://drone.io/github.com/EasonPai/sample-todomvc-polymer/status.png)](https://drone.io/github.com/EasonPai/sample-todomvc-polymer/latest)
+
 # Polymer TodoMVC Example
 
 > Build structured, encapsulated, client-side web apps with Dart and web components.

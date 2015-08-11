@@ -8,6 +8,7 @@ import 'dart:html';
 import 'dart:js' as js;
 import 'package:polymer/polymer.dart';
 import 'package:unittest/html_config.dart';
+import 'package:unittest/html_enhanced_config.dart';
 import 'package:unittest/unittest.dart';
 import 'package:todomvc/td_model.dart';
 import 'package:todomvc/td_todos.dart';
@@ -18,7 +19,8 @@ import 'utils.dart';
  */
 main() {
   initPolymer();
-  useHtmlConfiguration();
+//  useHtmlConfiguration();
+  useHtmlEnhancedConfiguration();
 
   setUp(() => Polymer.onReady);
 
